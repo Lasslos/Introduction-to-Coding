@@ -2,44 +2,29 @@
 
 <h2>IF-Statement</h2>
 
-<p>We are going to take a look at if-statements. They work like that: <br></p>
+<p>We are going to take a look at if-statements. They job is very important. You can add optional code,
+    depending on what the situation is.
+</p>
+
 <code>
     if (something) { <br>
-        //Do stuff<br>
+    &nbsp    //Do stuff<br>
     }<br>
 </code>
 <p>
-    The something is replaced with something that can be true or false.
-    This is called a <strong>boolean</strong>. You already know some of these
-    booleans. They occur when comparing two numbers. That's right, it's nothing else.
+    The something is replaced with a <strong>boolean</strong>. It is a data type that has exactly two states:
+    <strong>true or false</strong>.
+</p>
+<p>
+    You already know some of these
+    booleans. They occur when comparing two numbers to each other.
     So, an example of a program with an if-statement could be this:
 </p>
+<code>val number = 3</code>
 <code>
-    val number = 3; <br>
+    val number = 3\n
     if (number < 6) {  <br>
-        print("The number is smaller than six!")  <br>
+    &nbsp    print("The number is smaller than six!")  <br>
     }  <br>
-</code>
-<p>When the first condition fails, you may want to catch that. For that, use the else block.</p>
-<code>
-    val number = 3; <br>
-    if (number < 6) {  <br>
-    print("The number is smaller than six!")  <br>
-    } else { <br>
-    print("The number is not smaller than six!")  <br>
-    } <br>
-</code>
-<p>
-    And for real complex things, use else if:
-</p>
-<code>
-    val number = 3; <br>
-    if (number < 6) {  <br>
-    print("The number is smaller than six!")  <br>
-    } else if (number == 9) { <br>
-    print("The number is equal to seven!")  <br>
-    } else {<br>
-    print("The number is not smaller than six and not equal to 9.")<br>
-    }<br>
 </code>
 </html>
