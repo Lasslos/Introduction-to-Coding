@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Math_with_Kotlin-introduction" external.linked.project.path="$MODULE_DIR$/../../../../Math with Kotlin/introduction" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="Introduction_to_Coding" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../Math with Kotlin/introduction">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Math with Kotlin/introduction/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Math with Kotlin/introduction/out" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Math with Kotlin/introduction/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

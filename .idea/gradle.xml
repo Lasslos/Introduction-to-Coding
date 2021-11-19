@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -11,6 +12,11 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Hello World/hello-world" />
+            <option value="$PROJECT_DIR$/IF-Statement and Tasks/If-Statement" />
+            <option value="$PROJECT_DIR$/Math with Kotlin/comparison" />
+            <option value="$PROJECT_DIR$/Math with Kotlin/introduction" />
+            <option value="$PROJECT_DIR$/Math with Kotlin/math" />
+            <option value="$PROJECT_DIR$/Variables/Declare Variables" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>

@@ -10,3 +10,6 @@ summary: |-
 programming_language: Kotlin
 content:
 - Hello World
+- Math with Kotlin
+- Variables
+- IF-Statement and Tasks

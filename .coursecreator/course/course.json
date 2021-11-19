@@ -1,0 +1,55 @@
+{
+  "course_version" : 1,
+  "summary" : "This is an introductory Kotlin course.\n- The course will be most beneficial for beginner-level Kotlin learners.\n- The course covers core Kotlin features.\n- It contains hands-on examples of Kotlin code implementation and exercises to practice new skills.\n- The course is based on the author's personal experience in Kotlin development.",
+  "title" : "Introduction to Coding",
+  "programming_language" : "kotlin",
+  "language" : "en",
+  "course_type" : "Marketplace",
+  "items" : [
+    {
+      "id" : 985101780,
+      "title" : "Hello World",
+      "task_list" : [
+        {
+          "id" : 1359355095,
+          "name" : "hello-world",
+          "files" : {
+            "test/output.txt" : {
+              "name" : "test/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "LSDbfQpZKHiJ9xbl+EsXBA=="
+            },
+            "src/Main.kt" : {
+              "name" : "src/Main.kt",
+              "placeholders" : [
+                {
+                  "offset" : 17,
+                  "length" : 24,
+                  "possible_answer" : "2PvlWijZHZzj3Lnqqnf0sNDfbLaSUhk6esdk9sxGms0=",
+                  "placeholder_text" : "/* Add your code here */"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "NDA7NYDJ4pT3F7ChgC7OnRScOVyGtT8IVVopDVPp7YZK3eP4FhJ5auCO53KZPDcA"
+            }
+          },
+          "description_text" : "<html>\n<h2>Hello World</h2>\n\n<p>\n    This is an introductory course to the Kotlin Programming Language, made by Laslo Hauschild.\n    It is meant for absolute beginners.\n</p>\n<p>\n    Kotlin uses the <strong>Java Virtual Machine</strong> to run its code.\n    That means, everything that works with Java works with Kotlin.\n    Kotlin is the <strong>better Java</strong>. In 2016, Google announced to replace Java\n    with Kotlin as the preferred language for Android App Development. And its usage go much further.\n</p>\n<p>\n    Your very first program will do the following: Output <strong>Hello World</strong>\n    in the console. Use the hints below as instructions.\n</p>\n<div class=\"hint\">\n    Write all of your code in the main function. This is the entry point of your program.\n</div>\n\n<div class=\"hint\">\n  Use print(\"Your text here\") to output something to the console.\n</div>\n<div class=\"hint\">\n    Use the Check-Button below to get your answer\n</div>\n</html>",
+          "description_format" : "HTML",
+          "task_type" : "output"
+        }
+      ],
+      "type" : "lesson"
+    }
+  ],
+  "additional_files" : [
+    {
+      "name" : "build.gradle",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "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"
+    }
+  ],
+  "version" : 12,
+  "edu_plugin_version" : "2021.10-2021.2-627"
+}
