@@ -1,3 +1,3 @@
 fun main() {
-    // Write your solution here
+    var whatever = readLine()!!.toInt()
 }

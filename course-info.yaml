@@ -10,6 +10,9 @@ summary: |-
 programming_language: Kotlin
 content:
 - Hello World
+- Input and Output
+- Check a condition
 - Math with Kotlin
 - Variables
+- Functions
 - IF-Statement and Tasks

@@ -1,52 +1,22 @@
 <html>
 
-<h2>Task Description: Tips & Tricks</h2>
-
-<p>This is a task description file.
-Its content will be displayed to a learner
-in the <strong>Task Description</strong> window.</p>
-
-<p>It supports both Markdown and HTML.
-To toggle the format, you can rename <strong>task.md</strong>
-to <strong>task.html</strong>, or vice versa.
-The default task description format can be changed
-in <strong>Preferences | Tools | Education</strong>,
-but this will not affect any existing task description files.</p>
-
-<p>The following features are available in
-<strong>task.md/task.html</strong>
-which are specific to the EduTools plugin:</p>
-
+<h2>Input</h2>
+<p>So far, we used <code>readLine()</code> to get user input. The problem is that this will always be text, not numbers.</p>
+<p>To get numbers, we do the following:</p>
+<code>var input = readLine()!!.toInt()</code>
+<p>You already know what <code>var input = readLine()</code> does. Let's break the rest apart: <br>
+    <code>!!</code> - This is to tell the computer that we don't care about null safety. You don't have to understand that
+    right now. <br>
+    <code>.toInt()</code> - In Kotlin, there are different <strong>types of data</strong>. Here are some that you should know:
+</p>
 <ul>
-<li>Hints can be added anywhere in the task text.
-Type "hint" and press Tab.
-Hints should be added to an empty line in the task text.
-In hints you can use both HTML and Markdown.
-<div class="hint">Text of your hint</div></li>
-
-<li>You may need to refer your learners to a particular lesson,
-task, or file. To achieve this, you can use the in-course links.
-Specify the path using the <code>&lt;a href="course://lesson1/task1/file1"&gt;
-link_text&lt;/a&gt;</code> format.</li><br>
-
-<li>You can insert shortcuts in the task description.
-While <strong>task.html/task.md</strong> is open,
-right-click anywhere on the <strong>Editor</strong> tab
-and choose the <strong>Insert shortcut</strong> option
-from the context menu.
-For example: &amp;shortcut:FileStructurePopup;.</li><br>
-
-<li>Insert the &percnt;<code>IDE_NAME</code>&percnt; macro,
-which will be replaced by the actual IDE name.
-For example, <strong>%IDE_NAME%</strong>.</li><br>
-
-<li>Insert PSI elements, by using links like
-<code>&lt;a href="psi_element://link.to.element"&gt;element description&lt;/a&gt;</code>.
-To get such a link, right-click the class or method
-and select <strong>Copy Reference</strong>.
-Then press &amp;shortcut:EditorPaste;
-to insert the link where appropriate.
-For example, a
-<a href="psi_element://java.lang.String#contains">link to the "contains" method</a>.</li>
+    <li>String - Plain Text</li>
+    <li>Integer (short form: int) - Whole Numbers, so without decimal places</li>
+    <li>Double - Numbers with decimal places.</li>
+    <li>Boolean - True or False</li>
 </ul>
+<p>Unlike other programming languages, the data type will not change "just because".<br>
+    To change it, we have to use methods like <code>.toInt()</code> to change the datatype.
+    Be careful with this method, since it will throw an error when using it on non-number text.
+</p>
 </html>

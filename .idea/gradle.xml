@@ -7,13 +7,21 @@
         <option name="delegatedBuild" value="false" />
         <option name="distributionType" value="WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleJvm" value="java version &quot;11.0.12+7&quot;" />
+        <option name="gradleJvm" value="#JAVA_INTERNAL" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Check a condition/Check a condition" />
+            <option value="$PROJECT_DIR$/Check a condition/Greet only specific persons" />
+            <option value="$PROJECT_DIR$/Functions/Functions" />
+            <option value="$PROJECT_DIR$/Hello World/How this course works" />
             <option value="$PROJECT_DIR$/Hello World/hello-world" />
             <option value="$PROJECT_DIR$/IF-Statement and Tasks/If-Statement" />
+            <option value="$PROJECT_DIR$/Input and Output/Greet The User" />
+            <option value="$PROJECT_DIR$/Input and Output/Input" />
+            <option value="$PROJECT_DIR$/Input and Output/Output" />
             <option value="$PROJECT_DIR$/Math with Kotlin/comparison" />
+            <option value="$PROJECT_DIR$/Math with Kotlin/input" />
             <option value="$PROJECT_DIR$/Math with Kotlin/introduction" />
             <option value="$PROJECT_DIR$/Math with Kotlin/math" />
             <option value="$PROJECT_DIR$/Variables/Declare Variables" />

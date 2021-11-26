@@ -1,6 +1,8 @@
-type: output
+type: theory
 files:
-- name: test/output.txt
-  visible: false
 - name: src/Main.kt
   visible: true
+  placeholders:
+  - offset: 17
+    length: 127
+    placeholder_text: /* Write your answer here */

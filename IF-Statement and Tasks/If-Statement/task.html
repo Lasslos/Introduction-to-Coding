@@ -6,11 +6,11 @@
     depending on what the situation is.
 </p>
 
-<code>
-    if (something) { <br>
-    &nbsp    //Do stuff<br>
-    }<br>
-</code>
+<pre><code>
+    if (something) {
+    &nbsp    //Do stuff
+    }
+</code></pre>
 <p>
     The something is replaced with a <strong>boolean</strong>. It is a data type that has exactly two states:
     <strong>true or false</strong>.
@@ -20,11 +20,37 @@
     booleans. They occur when comparing two numbers to each other.
     So, an example of a program with an if-statement could be this:
 </p>
-<code>val number = 3</code>
-<code>
-    val number = 3\n
-    if (number < 6) {  <br>
-    &nbsp    print("The number is smaller than six!")  <br>
-    }  <br>
-</code>
+<pre><code style="display: block;">
+    val number = 3
+    if (number < 6) {
+    &nbsp    print("The number is smaller than six!")
+    }
+</code></pre>
+<p>
+    You can enhance your if statement with the keywork <code>else</code>:
+</p>
+<pre><code style="display: block;">
+    val number = 3
+    if (number < 6) {
+        println("The number is smaller than six!")
+    } else {
+        println("The number is not smaller than six")
+    }
+</code></pre>
+<p>
+    For even more specific cases, use the keyword <code>else if</code>:
+</p>
+<pre><code style="display: block;">
+    val number = 3
+    if (number < 6) {
+        println("The number is smaller than six!")
+    } else if (number == 42) {
+        println("The number is equal to 42!")
+    } else {
+        println("The number is not smaller than six and not equal to 42!")
+    }
+</code></pre>
+<p>
+    You
+</p>
 </html>

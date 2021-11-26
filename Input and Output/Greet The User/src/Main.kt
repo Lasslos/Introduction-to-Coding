@@ -1,3 +1,7 @@
 fun main() {
-    // Write your solution here
+    println("What is your name?")
+    val name = readLine()
+    print("Hello, ")
+    print(name)
+    println(". Nice to meet you!")
 }
