@@ -1,0 +1,10 @@
+type: edu
+files:
+- name: src/Main.kt
+  visible: true
+  placeholders:
+  - offset: 38
+    length: 94
+    placeholder_text: /* Put you solution here */
+- name: test/Tests.kt
+  visible: false

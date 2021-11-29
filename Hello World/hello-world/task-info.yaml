@@ -6,5 +6,5 @@ files:
   visible: true
   placeholders:
   - offset: 17
-    length: 22
+    length: 20
     placeholder_text: /* Add your code here */

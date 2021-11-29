@@ -1,0 +1,37 @@
+<html>
+
+<h2>And, Or, Not, Else</h2>
+
+<p>Often, we want to check if two conditions are true at the same time. <br>
+    To do that, we use the operator <strong>and</strong>. It works like that:
+</p>
+<pre><code>
+    if (oneCondition && anotherCondition) {
+        //Only runs when both are true
+    }
+</code></pre>
+
+<p>Similarly, there is <strong>or</strong>:</p>
+<pre><code>
+    if (oneCondition || anotherCondition) {
+        //Only runs when at least one of them is true
+    }
+</code></pre>
+<p>When you want to run something unless the condition is true, use <strong>not</strong>:</p>
+<pre><code>
+    if (!oneCondition) {
+        //Only runs when one condition is not true
+    }
+</code></pre>
+<p>Probably the most important feature is the keyword <strong>else</strong>:</p>
+<pre><code>
+    if (oneCondition) {
+        //Run stuff
+    } else if (anotherCondition) {
+        //Only runs when oneCondition doesn't apply but anotherCondition does
+    } else {
+        //Only runs as a "fallback", when both conditions don't apply.
+    }
+</code></pre>
+<p>Both the <code>else if</code> and <code>else</code> block are optional in an if-statement.</p>
+</html>

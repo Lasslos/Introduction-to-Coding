@@ -34,9 +34,150 @@
               "text" : "NDA7NYDJ4pT3F7ChgC7OnRScOVyGtT8IVVopDVPp7YZK3eP4FhJ5auCO53KZPDcA"
             }
           },
-          "description_text" : "<html>\r\n<h2>Hello World</h2>\r\n\r\n<p>\r\n    This is an introductory course to the Kotlin Programming Language, made by Laslo Hauschild.\r\n    It is meant for absolute beginners.\r\n</p>\r\n<p>\r\n    Kotlin uses the <strong>Java Virtual Machine</strong> to run its code.\r\n    That means, everything that works with Java works with Kotlin.\r\n    Kotlin is the <strong>better Java</strong>. In 2016, Google announced to replace Java\r\n    with Kotlin as the preferred language for Android App Development. And its usage go much further.\r\n</p>\r\n<p>\r\n    Your very first program will do the following: Output <strong>Hello World</strong>\r\n    in the console. Use the hints below as instructions.\r\n</p>\r\n<div class=\"hint\"><pre><code>\r\n    fun main {\r\n    &nbsp;&nbsp;//Your code goes here.\r\n    }\r\n</code></pre></div>\r\n\r\n<div class=\"hint\">\r\n  Use <code>println(\"Your text here\")</code> to output something to the console.\r\n</div>\r\n<div class=\"hint\">\r\n    Use the Check-Button below to check your answer\r\n</div>\r\n</html>",
+          "description_text" : "<html>\n<h2>Hello World</h2>\n\n<p>\n    This is an introductory course to the Kotlin Programming Language, made by Laslo Hauschild.\n    It is meant for absolute beginners.\n</p>\n<p>\n    Kotlin uses the <strong>Java Virtual Machine</strong> to run its code.\n    That means, everything that works with Java works with Kotlin.\n    Kotlin is the <strong>better Java</strong>. In 2016, Google announced to replace Java\n    with Kotlin as the preferred language for Android App Development. And its usage go much further.\n</p>\n<p>\n    Your very first program will do the following: Output <strong>Hello World</strong>\n    in the console. Use the hints below as instructions.\n</p>\n<div class=\"hint\"><pre><code>\n    fun main {\n    &nbsp;&nbsp;//Your code goes here.\n    }\n</code></pre></div>\n\n<div class=\"hint\">\n  Use <code>println(\"Your text here\")</code> to output something to the console.\n</div>\n<div class=\"hint\">\n    Use the Check-Button below to check your answer\n</div>\n</html>",
           "description_format" : "HTML",
           "task_type" : "output"
+        },
+        {
+          "id" : 1759968715,
+          "name" : "How this course works",
+          "files" : {
+            "src/Task.kt" : {
+              "name" : "src/Task.kt",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "<html>\n\n<h2>How this course works</h2>\n\n<p>This course is made for absolute beginners. There will be different types of lessons.</p>\n\n<ul>\n    <li>\n        <strong>Theory:</strong> Instead of reading the description, it should be taught by an experienced programmer.\n        Always code along! That means that you always should try out, how something shown to you works.\n        <strong>Instead of asking what if questions, try it yourself and then ask or make a comment!</strong>\n    </li>\n    <li><strong>Output:</strong> Coding exercise that is validated by output. It starts with the\n        <strong>main function</strong> and uses print.</li>\n    <li><strong>Edu:</strong> Coding exercise that is validated by tests. It starts with a\n    <strong>custom function.</strong> These functions will get some information and return some information.</li>\n</ul>\n<p></p>\n</html>",
+          "description_format" : "HTML",
+          "task_type" : "theory"
+        }
+      ],
+      "type" : "lesson"
+    },
+    {
+      "id" : 443767882,
+      "title" : "Input and Output",
+      "task_list" : [
+        {
+          "id" : 1575731687,
+          "name" : "Output",
+          "files" : {
+            "src/Main.kt" : {
+              "name" : "src/Main.kt",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "PGkeS2XbY9cdFraL4MfG5Q=="
+            }
+          },
+          "description_text" : "<html>\n\n<h2>Input and Output</h2>\n\n<p>You already know how to \"output something\". The term for that is printing to the console. It works like that:</p>\n<code>println(\"This text will be printed!\")</code>\n<p>println means print line. It automatically adds a new line after printing.</p>\n<p>There is another way to print stuff:</p>\n<code>print(\"This text will be printed, but without a linebreak!\")</code>\n<p>This does not add another line to the console.</p>\n</html>",
+          "description_format" : "HTML",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 1830676539,
+          "name" : "Input",
+          "files" : {
+            "src/Main.kt" : {
+              "name" : "src/Main.kt",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "ZTzm8QIsbec3Jbr9q6Echw=="
+            }
+          },
+          "description_text" : "<html>\n\n<h2>Input and Output</h2>\n\n<p>Input works a similar way:</p>\n<code>val input = readLine()</code>\n<p>Lets break this down</p>\n<p><code>val</code> - This is a <strong>keyword</strong>. It tells the computer that this is a <strong>val</strong>ue</p>\n<p><code>input</code> - This is the <strong>name</strong> of the value. It can be anything.</p>\n<p><code>=</code> - This is an <strong>operator</strong>. It means <strong>assign to</strong>.\nThe value on the right is assigned to the name on the left.</p>\n<p><code>readLine()</code> - This tells the computer to wait for the users input and gives it to you.</p>\n</html>",
+          "description_format" : "HTML",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 1160051072,
+          "name" : "Greet The User",
+          "files" : {
+            "src/Main.kt" : {
+              "name" : "src/Main.kt",
+              "placeholders" : [
+                {
+                  "offset" : 17,
+                  "length" : 24,
+                  "possible_answer" : "qoFhFCap5Lat6+RqotP+xVB+V1BNqvqmzUZx7q0oAnUE2ng/O/1AeLrcbco2zjTLQZHA3neKnxLOQXcigs6ByXwLdH9O2+7EhVxts2ANM2JdqLnQurpFO6bPa9oncBhk1OMnUb7qUzkSKGdP9rPK0NiKR3Zu4J9A8j/p/Q9oFRQ=",
+                  "placeholder_text" : "/* Add your code here */"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "NDA7NYDJ4pT3F7ChgC7OnRScOVyGtT8IVVopDVPp7YZta0KMMYderdRJBnEOedlB"
+            }
+          },
+          "description_text" : "<html>\n\n<h2>Task: Greet the user</h2>\n\n<ul>\n    <li>Write a program that asks the user for their name and greets them with their name.</li>\n</ul>\n</html>",
+          "description_format" : "HTML",
+          "task_type" : "theory"
+        }
+      ],
+      "type" : "lesson"
+    },
+    {
+      "id" : 1114547439,
+      "title" : "If-Statement",
+      "task_list" : [
+        {
+          "id" : 429146650,
+          "name" : "Check a condition",
+          "files" : {
+            "src/Main.kt" : {
+              "name" : "src/Main.kt",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "r78sGZKn2sJUsa1f9cbzwuE26Lb2O8BdwhbQAC11W/o="
+            }
+          },
+          "description_text" : "<html>\n\n<h2>Check a condition.</h2>\n<p>Almost every program wants to do something when certain conditions apply. In Kotlin, we do the following:</p>\n<pre><code>\n    if (condition) {\n        //Do stuff\n    }\n</code></pre>\n<p>All the code inside the curly brackets will only run when the condition is true.</p>\n<p>A valid if-statement is for example:</p>\n<pre><code>\n    val input = readLine()\n    if (input == \"Joe\") {\n        println(\"Mama\")\n    }\n</code></pre>\n<p>Lets break this down again.</p>\n<p>We use <code>readLine()</code> to get some input from the user.</p>\n<p><code>input == \"Joe\"</code> checks if the input <strong>is equal to</strong> \"Joe\"</p>\n<p>If that is the case, it will print \"Mama\"</p>\n<p>To check if something is <strong>not equal to something</strong>, use <code>input != \"Joe\"</code></p>\n</html>",
+          "description_format" : "HTML",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 466234659,
+          "name" : "Greeting 2.0",
+          "files" : {
+            "src/Main.kt" : {
+              "name" : "src/Main.kt",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "NDA7NYDJ4pT3F7ChgC7OnferQh7YfJ3P/IbTMFgUNW/1YqmPCQAstf8F3+Bh8xvECdc4FObRxDJJQ6H/PBp+99FQbPKy2tdl2ogGS0z8Yrk5HXyOGnrx+hlZAHUQRHEhD4vIYDq4buKjwU69PDrfnye+4e4Cd4Q/99M09sjUICtWZ+ixd09xI3BpIHISZpVdKa9GzzHQ80FMgjH9WTqgdcwgzGyujN0dxRQYLnJ3Eb5PgHSX7ofY4Zkq9cMXfi2nB8Oe+sIJyFhRpWxFuooKpqfnx7q3BTt7lMjRZ+ngSX4WHwa6ySvBxZCeP6d7mRK9"
+            }
+          },
+          "description_text" : "<html>\n\n<h2>Greeting 2.0</h2>\n\n<ul>\n    <li>Write a program that asks a person for their name.</li>\n    <li>If the name is Mr. Treber, then print \"Good morning sir!\"</li>\n    <li>If the name is not Mr. Treber, print \"Hello there!\"</li>\n</ul>\n</html>",
+          "description_format" : "HTML",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 2034253603,
+          "name" : "And, Or, Not, Else,",
+          "files" : {
+            "src/Main.kt" : {
+              "name" : "src/Main.kt",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "r78sGZKn2sJUsa1f9cbzwuE26Lb2O8BdwhbQAC11W/o="
+            }
+          },
+          "description_text" : "<html>\n\n<h2>And, Or, Else</h2>\n\n<p>Often, we want to check if two conditions are true at the same time. <br>\n    To do that, we use the operator <strong>and</strong>. It works like that:\n</p>\n<pre><code>\n    if (oneCondition && anotherCondition) {\n        //Only runs when both are true\n    }\n</code></pre>\n\n<p>Similarly, there is <strong>or</strong>:</p>\n<pre><code>\n    if (oneCondition || anotherCondition) {\n        //Only runs when at least one of them is true\n    }\n</code></pre>\n<p>When you want to run something unless the condition is true, use <strong>not</strong>:</p>\n<pre><code>\n    if (!oneCondition) {\n        //Only runs when one condition is not true\n    }\n</code></pre>\n<p>Probably the most important feature is the keyword <strong>else</strong>:</p>\n<pre><code>\n    if (oneCondition) {\n        //Run stuff\n    } else if (anotherCondition) {\n        //Only runs when oneCondition doesn't apply but anotherCondition does\n    } else {\n        //Only runs as a \"fallback\", when both conditions don't apply.\n    }\n</code></pre>\n<p>Both the <code>else if</code> and <code>else</code> block are optional in an if-statement.</p>\n</html>",
+          "description_format" : "HTML",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 2035395917,
+          "name" : "Greeting 3.0",
+          "files" : {
+            "src/Task.kt" : {
+              "name" : "src/Task.kt",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "NDA7NYDJ4pT3F7ChgC7OnferQh7YfJ3P/IbTMFgUNW/1YqmPCQAstf8F3+Bh8xvEa7wyfZ1iNq2EwADk99DnHRiOzF1kS9PDAe4qRFfbvI7jvqacRjyaHXRsnhA7dCl2x7Aly3hnvajTdDqZlSRDSYZ/9EuejT6IwtIbO4CfAZq1ciP9Es9h4ooCrCcVDytmFSH7CoHKu0kn6w2DMbgOhaIxhiyV4C/l4+CLm1g+s4MUSf26wjqVhmNiraBKWnqY4l+bgToDn6zy/jGkpMCpmpne+Lv8czJ6MPmQxkJG126Q6nwXBdRPF1iEiXqbnN6JtR+mQcTNjYpt6lwbhMuBLFQbNvbiHxEGwXvyl6k48rrbkbm2SLT6+Y9aeL6ki5DGyJovh8wbkH0gNL3OCxC2O3kV+zB3dG/zJQzef8TOcLw1s8dBhxIZge0SAwVqdARHBfioL5OQtFXVH8fmNUny+XNNzcvNHg9xbN9kSPE0atn8g1VUTXmHTpmQ/UfBQsxaNyZQ4W/Lfav9WudX+xPkZw=="
+            }
+          },
+          "description_text" : "<html>\n\n<h2>Greeting 3.0</h2>\n\n<h5>Please ignore the message: \"Cascade 'if' should be replaced with 'when'.\"\nYou will learn that soon enough.</h5>\n<ul>\n    <li>Write a program that asks a person for their name.</li>\n    <li>If the name is Mr. Treber or Mr. Dolgopol, then print \"Good morning sir!\"</li>\n    <li>If the name is Joe, respond \"Mama!\"</li>\n    <li>If the name is Google Assistant, greet it with \"Hey Google!\"</li>\n    <li>If the name is not theirs, print \"Hello there!\"</li>\n</ul>\n</html>",
+          "description_format" : "HTML",
+          "task_type" : "theory"
         }
       ],
       "type" : "lesson"
@@ -63,7 +204,22 @@
               "text" : "NDA7NYDJ4pT3F7ChgC7OnQYHtnCrCfDV6ZvoxRVx5jV9EeEIJXPfsPbXEK8brNk51rblsl8L1J1HoXuhJXJxtw=="
             }
           },
-          "description_text" : "<html>\r\n\r\n<h2>Math with Kotlin</h2>\r\n\r\n<h4>\r\n    Disclaimer: This lesson is meant to be taught by an experienced programmer.\r\n</h4>\r\n<p>\r\n    Computers are great in two things: Math and storing data. <br>\r\n    Today, we are going to cover the math part. <br>\r\n    <strong>This is very important to become a good programmer. </strong>\r\n    It would be optimal if you had someone teaching you this instead of learing it yourself.\r\n</p>\r\n\r\n<p>\r\n    Start off by trying to put some basic addition, e.g. \"1 + 2\"\r\n    into a print statement. It is explained in the first hint again.\r\n    Don't forget to put <strong>Quotation Marks</strong>.\r\n</p>\r\n<div class=\"hint\">\r\n    Use println(\"Your text here\") to output something to the console.\r\n</div>\r\n\r\n<details><summary><strong>Open this after you tried</strong></summary>\r\n    <p style=\"margin-top: 12px;\">\r\n        As you may have noticed, it didn't do any math. That's because a print statement with quotation marks\r\n        takes the input as a <strong>String</strong>, which is the word for <strong>Text</strong> in programming.\r\n    </p>\r\n    <p>\r\n        Please go on with the next lesson.\r\n    </p>\r\n</details>",
+          "description_text" : "<html>\n\n<h2>Math with Kotlin</h2>\n\n<h4>\n    Disclaimer: This lesson is meant to be taught by an experienced programmer.\n</h4>\n<p>\n    Computers are great in two things: Math and storing data. <br>\n    Today, we are going to cover the math part. <br>\n    <strong>This is very important to become a good programmer. </strong>\n    It would be optimal if you had someone teaching you this instead of learing it yourself.\n</p>\n\n<p>\n    Start off by trying to put some basic addition, e.g. \"1 + 2\"\n    into a print statement. It is explained in the first hint again.\n    Don't forget to put <strong>Quotation Marks</strong>.\n</p>\n<div class=\"hint\">\n    Use println(\"Your text here\") to output something to the console.\n</div>\n\n<details><summary><strong>Open this after you tried</strong></summary>\n    <p style=\"margin-top: 12px;\">\n        As you may have noticed, it didn't do any math. That's because a print statement with quotation marks\n        takes the input as a <strong>String</strong>, which is the word for <strong>Text</strong> in programming.\n    </p>\n    <p>\n        Please go on with the next lesson.\n    </p>\n</details>",
+          "description_format" : "HTML",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 143080116,
+          "name" : "input",
+          "files" : {
+            "src/Main.kt" : {
+              "name" : "src/Main.kt",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "NDA7NYDJ4pT3F7ChgC7OnY7PiQg0Z9w3V0uXkpoQ4U1bA82PIPbBUwzzqamNfgOY"
+            }
+          },
+          "description_text" : "<html>\n\n<h2>Input</h2>\n<p>So far, we used <code>readLine()</code> to get user input. The problem is that this will always be text, not numbers.</p>\n<p>To get numbers, we do the following:</p>\n<code>var input = readLine()!!.toInt()</code>\n<p>You already know what <code>var input = readLine()</code> does. Let's break the rest apart: <br>\n    <code>!!</code> - This is to tell the computer that we don't care about null safety. You don't have to understand that\n    right now. <br>\n    <code>.toInt()</code> - In Kotlin, there are different <strong>types of data</strong>. Here are some that you should know:\n</p>\n<ul>\n    <li>String - Plain Text</li>\n    <li>Integer (short form: int) - Whole Numbers, so without decimal places</li>\n    <li>Double - Numbers with decimal places.</li>\n    <li>Boolean - True or False</li>\n</ul>\n<p>To change the data type, you have to use a <strong>typecast</strong>. And that is exactly what\n<code>.toInt()</code> does. Be aware that if you put an invalid string into .toInt, it will give you\nan error. How to solve that issue will be discussed later.</p>\n</html>",
           "description_format" : "HTML",
           "task_type" : "theory"
         },
@@ -85,7 +241,29 @@
               "text" : "NDA7NYDJ4pT3F7ChgC7OnSijbt/zW3FAHWqMHxV1ZeFWuBl3JctCswh+jImUnzbP"
             }
           },
-          "description_text" : "<html>\r\n\r\n<h2>Math with Kotlin</h2>\r\n\r\n<p>\r\n    Try the same thing again, but this time without the quotation marks.\r\n    It should act like a calculator. So, lets go over some operations.\r\n</p>\r\n\r\n<p>\r\n    Try to do simple addition. How does it work?\r\n</p>\r\n<div class=\"hint\">\r\n    Use <strong>+</strong> to do addition.\r\n</div>\r\n<p>\r\n    Try to do the same with subtraction.\r\n</p>\r\n<div class=\"hint\">\r\n    Use <strong>-</strong> to do subtraction.\r\n</div>\r\n<p>\r\n    Try out multiplication. If you can't figure out what symbol is used, feel free to use the hint.\r\n</p>\r\n<div class=\"hint\">\r\n    Use <strong>*</strong> to do multiplication.\r\n</div>\r\n<p>\r\n    Division? Pay attention if it rounds, and if yes up or down? What happens if you\r\n    replace something like <strong>3 / 2</strong> by <strong>3.0 / 2.0</strong>\r\n</p>\r\n<div class=\"hint\">\r\n    Use <strong>/</strong> to do division. Kotlin has two major types of numbers. These are <strong>Integer</strong>\r\n    and <strong>Double.</strong>. An Integer can represent every <strong>whole number</strong>,\r\n    while a Double also <strong>supports decimal places</strong>.\r\n    When doing an Integer Division, Kotlin will always <strong>round down.</strong>\r\n</div>\r\n<p>\r\n    Does Kotlin follow <strong>BEDMAS?</strong> Does it support <strong>( or ) ?</strong> Try it out!\r\n</p>\r\n<div class=\"hint\">\r\n    Kotlin follows the <strong>BEDMAS</strong> rules. That also means you can use <strong>( and )</strong>.\r\n</div>",
+          "description_text" : "<html>\n\n<h2>Math with Kotlin</h2>\n\n<p>\n    Try the same thing again, but this time without the quotation marks.\n    It should act like a calculator. So, lets go over some operations.\n</p>\n\n<p>\n    Try to do simple addition. How does it work?\n</p>\n<div class=\"hint\">\n    Use <strong>+</strong> to do addition.\n</div>\n<p>\n    Try to do the same with subtraction.\n</p>\n<div class=\"hint\">\n    Use <strong>-</strong> to do subtraction.\n</div>\n<p>\n    Try out multiplication. If you can't figure out what symbol is used, feel free to use the hint.\n</p>\n<div class=\"hint\">\n    Use <strong>*</strong> to do multiplication.\n</div>\n<p>\n    Division? Pay attention if it rounds, and if yes up or down? What happens if you\n    replace something like <strong>3 / 2</strong> by <strong>3.0 / 2.0</strong>\n</p>\n<div class=\"hint\">\n    Use <strong>/</strong> to do division. Kotlin has two major types of numbers. These are <strong>Integer</strong>\n    and <strong>Double.</strong>. An Integer can represent every <strong>whole number</strong>,\n    while a Double also <strong>supports decimal places</strong>.\n    When doing an Integer Division, Kotlin will always <strong>round down.</strong>\n</div>\n<p>\n    Does Kotlin follow <strong>BEDMAS?</strong> Does it support <strong>( or ) ?</strong> Try it out!\n</p>\n<div class=\"hint\">\n    Kotlin follows the <strong>BEDMAS</strong> rules. That also means you can use <strong>( and )</strong>.\n</div>",
+          "description_format" : "HTML",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 1883678112,
+          "name" : "From 12 to 24 Hour Clock",
+          "files" : {
+            "src/Main.kt" : {
+              "name" : "src/Main.kt",
+              "placeholders" : [
+                {
+                  "offset" : 17,
+                  "length" : 26,
+                  "possible_answer" : "XfTZN5M5TY1785o7f3lbJ86KyB5kw6a3UwQPMs3N3ZSA/2GG4NIkmnfF5ejwo5WksVmtTxW6WdQVBitPu7imR+b4L6gdaLe9FVqdjCe5KdyectyWc8dJK1K3aREHK9MaLt/BxKJFbaDwDb+TxYC8skB7RwIdpXxHvB84r0LeyRT8e3WTt5AbEYPL4TI1etAxk40uB+LBklOk5Tc7yGA72JVd6ZfgGOjS2fLe73CxsomNydo16BXGOvqsDM+fyM/m2m7N22EpsVf+MegchxoXiTz4qFsqIPvRMiRuN4t8vdTS+Zlk+22S66yuaapCkG8gZ375EKwBYkg3SkoyfnQGiRLNAMGzn9HLMnIj/QeX1/738kpz89i77rpTWBCaR+RVEdzl51OPoPT5y4WHlqGzxdFpE+P/Tq1TD4V6u7q9bwwm3i5QeFL6x9/Z60gciiEhe2lgqrYEBzYqaNKtOGEiUKbjOwsCZ5MdWDaLFV1PzzcNGblqUoaqUnyynYA/Wu9HstnrjdoYmAE+QtyA9zZ3y6ehvXE25UfHYR7fGI/HNlhvWzZ5gmVjyK0LRijyTf7kq7mrqiCInlpSRtlRpIbdC3u0QOdMKgTTzZqsm9tKQAU=",
+                  "placeholder_text" : "/* Put your answer here */"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "NDA7NYDJ4pT3F7ChgC7OnZLHUtavX+Zq8VMxFNmYVWEuTh4cMDSi55UEj/pct+OD"
+            }
+          },
+          "description_text" : "<html>\n\n<h2>12-Hour Clock, 24-Hour Clock</h2>\n\n<ul>\n    <li>Ask the user for the hour</li>\n    <li>If it's smaller than zero or bigger than 12, tell the user that their input is not valid and end\n    the execution with <strong>return</strong></li>\n    <li>Ask the user for AM or PM</li>\n    <li>If the user enters something that is not either AM or PM, tell the user that their input is not\n    valid and ent the execution with <strong>return</strong></li>\n    <li>Tell the user what time that is in 24-Hour-Clock</li>\n</ul>\n<div class=\"hint\">\n  When it's currently AM, the hour on a 24-Hour clock is the same as on a 12-Hour clock <br>\n    When it's currently PM, the hour on a 24-Hour Clock is exactly 12 bigger than on a 12-Hour clock\n</div>\n</html>",
           "description_format" : "HTML",
           "task_type" : "theory"
         },
@@ -107,7 +285,7 @@
               "text" : "NDA7NYDJ4pT3F7ChgC7OnSijbt/zW3FAHWqMHxV1ZeG+P7Ot++wKV5/SMSAjjeV0"
             }
           },
-          "description_text" : "<html>\r\n\r\n<h2>Compare numbers to each other.</h2>\r\n\r\n<p>Often, we need to compare numbers. In Kotlin, we use these operators for it:</p>\r\n<p><strong><</strong> corresponds to <strong>is smaller than.</strong> Examples: 3 < 2 is false. 5 < 16 is true. 7 < 7 is false.</p>\r\n<p><strong>></strong> corresponds to <strong>is bigger than.</strong> Examples: 3 > 2 is true. 5 > 16 is false. 7 > 7 is false.</p>\r\n<p><strong>==</strong> corresponds to <strong>is equal</strong> Examples: 3 == 2 is false. 5 == 16 is false. 7 == 7 is true.</p>\r\n<p><strong><=</strong> corresponds to <strong>is smaller or equal to.</strong> Examples: 3 <= 2 is false. 5 <= 16 is true. 7 <= 7 is true.</p>\r\n<p><strong>>=</strong> corresponds to <strong>is bigger or equal to.</strong> Examples: 3 >= 2 is true. 5 >= 16 is false. 7 >= 7 is true.</p>\r\n<p>Take the time and try to put some of these statements into a print statement. </p>\r\n</html>\r\n\r\n\r\n",
+          "description_text" : "<html>\n\n<h2>Compare numbers to each other.</h2>\n\n<p>Often, we need to compare numbers in if-statements. In Kotlin, we use these operators for it:</p>\n<p><strong><</strong> corresponds to <strong>is smaller than.</strong> Examples: 3 < 2 is false. 5 < 16 is true. 7 < 7 is false.</p>\n<p><strong>></strong> corresponds to <strong>is bigger than.</strong> Examples: 3 > 2 is true. 5 > 16 is false. 7 > 7 is false.</p>\n<p><strong>==</strong> corresponds to <strong>is equal</strong> Examples: 3 == 2 is false. 5 == 16 is false. 7 == 7 is true.</p>\n<p><strong><=</strong> corresponds to <strong>is smaller or equal to.</strong> Examples: 3 <= 2 is false. 5 <= 16 is true. 7 <= 7 is true.</p>\n<p><strong>>=</strong> corresponds to <strong>is bigger or equal to.</strong> Examples: 3 >= 2 is true. 5 >= 16 is false. 7 >= 7 is true.</p>\n<p>Take the time and try to put some of these statements into a print statement. </p>\n</html>\n\n\n",
           "description_format" : "HTML",
           "task_type" : "theory"
         }
@@ -136,7 +314,29 @@
               "text" : "NDA7NYDJ4pT3F7ChgC7OnSijbt/zW3FAHWqMHxV1ZeG+P7Ot++wKV5/SMSAjjeV0"
             }
           },
-          "description_text" : "<html>\r\n\r\n<h2>Variables</h2>\r\n<h3>Disclaimer: This lesson should be taught by an experienced programmer.</h3>\r\n<p>The second thing that computers are incredibly good in, is storing data. I am going to show\r\nyou the most convenient way in Kotlin.</p>\r\n<p>Before we store data, we have to understand data types. You already know a few:</p>\r\n<ul>\r\n    <li>String [Text]</li>\r\n    <li>Integer, called Int [Whole numbers]</li>\r\n    <li>Double [Numbers with decimal places]</li>\r\n</ul>\r\n<p><strong>Before you reveal the hints, try to guess how it could work, if you have an idea.\r\nThat way, you learn more efficient.</strong></p>\r\n<p>\r\n    Write a program that begins with a variable with the value\r\n    <strong>\"Hello World\"</strong>.\r\n    Try the following things in the code:\r\n</p>\r\n<ul>\r\n    <li>Print the variable.</li>\r\n    <li>Change the value in it and print it.</li>\r\n    <li>Try to change it to a number and print it.</li>\r\n    <li>Create a new variable with a number in it and do math with it. Use print statements for that.</li>\r\n    <li>Save the output of a calculation in a variable and print it later.</li>\r\n    <li>Compare variables instead of numbers, the same way. Also compare a variable to a number.</li>\r\n\r\n</ul>\r\n<div class=\"hint\">\r\n    How you store data: <br>\r\n    <code>var [name of variable] = [some data]</code><br>\r\n    Example: <br>\r\n    <code>var data = \"Hello World!\"</code>\r\n</div>\r\n<div class=\"hint\">\r\n    You can access the data like that:<br>\r\n    <code>\r\n        var data = \"Hello World\" <br>\r\n        print(data)\r\n    </code>\r\n</div>\r\n<div class=\"hint\">\r\n    You can also specify the type of data to be stored:<br>\r\n    <code>var data: String = \"Hello World!\"</code>\r\n</div>\r\n<div class=\"hint\">\r\n    If you want to change the value, simply reassign the variable:<br>\r\n    <code>data = \"Something else\"</code><br>\r\n    That will delete the previous value in the variable, and put a new value into it.\r\n</div>\r\n<div class=\"hint\">\r\n    There may be some cases where you want a variable to be unchangeable. It also helps to understand the code,\r\n    so try to use this feature as often as possible. <br>\r\n    <code>val moreData = \"This is unmodifiable, because it starts with the keyword val\"</code>\r\n</div>\r\n</html>",
+          "description_text" : "<html>\n\n<h2>Variables</h2>\n<h3>Disclaimer: This lesson should be taught by an experienced programmer.</h3>\n<p>The first thing that computers are incredibly good in, is storing data. I am going to show\nyou the most convenient way in Kotlin.</p>\n<p>Before we store data, we have to understand data types. You already know a few:</p>\n<ul>\n    <li>String [Text]</li>\n    <li>Integer, called Int [Whole numbers]</li>\n    <li>Double [Numbers with decimal places]</li>\n</ul>\n<p><strong>Before you reveal the hints, try to guess how it could work, if you have an idea.\nThat way, you learn more efficient.</strong></p>\n<p>\n    Write a program that begins with a variable with the value\n    <strong>\"Hello World\"</strong>.\n    Try the following things in the code:\n</p>\n<ul>\n    <li>Print the variable.</li>\n    <li>Change the value in it and print it.</li>\n    <li>Try to change it to a number and print it.</li>\n    <li>Create a new variable with a number in it and do math with it. Use print statements for that.</li>\n    <li>Save the output of a calculation in a variable and print it later.</li>\n    <li>Compare variables instead of numbers, the same way. Also compare a variable to a number.</li>\n\n</ul>\n<div class=\"hint\">\n    How you store data: <br>\n    <code>var [name of variable] = [some data]</code><br>\n    Example: <br>\n    <code>var data = \"Hello World!\"</code>\n</div>\n<div class=\"hint\">\n    You can access the data like that:<br>\n    <code>\n        var data = \"Hello World\" <br>\n        print(data)\n    </code>\n</div>\n<div class=\"hint\">\n    You can also specify the type of data to be stored:<br>\n    <code>var data: String = \"Hello World!\"</code>\n</div>\n<div class=\"hint\">\n    If you want to change the value, simply reassign the variable:<br>\n    <code>data = \"Something else\"</code><br>\n    That will delete the previous value in the variable, and put a new value into it.\n</div>\n<div class=\"hint\">\n    There may be some cases where you want a variable to be unchangeable. It also helps to understand the code,\n    so try to use this feature as often as possible. <br>\n    <code>val moreData = \"This is unmodifiable, because it starts with the keyword val\"</code>\n</div>\n</html>",
+          "description_format" : "HTML",
+          "task_type" : "theory"
+        }
+      ],
+      "type" : "lesson"
+    },
+    {
+      "id" : 863486098,
+      "title" : "Functions",
+      "task_list" : [
+        {
+          "id" : 67720480,
+          "name" : "Functions",
+          "files" : {
+            "src/Main.kt" : {
+              "name" : "src/Main.kt",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "NDA7NYDJ4pT3F7ChgC7OnY7PiQg0Z9w3V0uXkpoQ4U1bA82PIPbBUwzzqamNfgOY"
+            }
+          },
+          "description_text" : "<html>\n\n<h2>Functions</h2>\n\n<p>\n    A <strong>functions</strong> is a block of code. It is executed step by step, statement after statement.\n    You already know a function:\n</p>\n<pre><code style=\"display: block;\">\n    fun main() {\n\n    }\n</code></pre>\n<p>However, this is not a very good example of a function, since it leaves out a lot of things that can be done with functions.</p>\n<p>Let's take a look at another example: </p>\n<pre><code style=\"display: block;\">\n    fun printText() {\n\n    }\n</code></pre>\n<p>This is the <strong>main function</strong>. We are going to break it apart to see what we can do with it.</p>\n<p><code>fun</code> -> This is the <strong>keyword</strong> of a function. Every function begins with it.\n    Its purpose is that your computer know what to do with it.</p>\n<p><code>main</code> -> This is the <strong>name</strong> of a function. It can be anything. </p>\n<p><code>()</code> -> This is the <strong>parameter list</strong> of a function. When your function\nneeds to be input in order to run </p>\n</html>",
           "description_format" : "HTML",
           "task_type" : "theory"
         }
@@ -158,7 +358,7 @@
               "text" : "r78sGZKn2sJUsa1f9cbzwuE26Lb2O8BdwhbQAC11W/o="
             }
           },
-          "description_text" : "<html>\r\n\r\n<h2>IF-Statement</h2>\r\n\r\n<p>We are going to take a look at if-statements. They job is very important. You can add optional code,\r\n    depending on what the situation is.\r\n</p>\r\n\r\n<pre><code>\r\n    if (something) {\r\n    &nbsp    //Do stuff\r\n    }\r\n</code></pre>\r\n<p>\r\n    The something is replaced with a <strong>boolean</strong>. It is a data type that has exactly two states:\r\n    <strong>true or false</strong>.\r\n</p>\r\n<p>\r\n    You already know some of these\r\n    booleans. They occur when comparing two numbers to each other.\r\n    So, an example of a program with an if-statement could be this:\r\n</p>\r\n<pre><code style=\"display: block;\">\r\n    val number = 3\r\n    if (number < 6) {\r\n    &nbsp    print(\"The number is smaller than six!\")\r\n    }\r\n</code></pre>\r\n</html>",
+          "description_text" : "<html>\n\n<h2>IF-Statement</h2>\n\n<p>We are going to take a look at if-statements. They job is very important. You can add optional code,\n    depending on what the situation is.\n</p>\n\n<pre><code>\n    if (something) {\n    &nbsp    //Do stuff\n    }\n</code></pre>\n<p>\n    The something is replaced with a <strong>boolean</strong>. It is a data type that has exactly two states:\n    <strong>true or false</strong>.\n</p>\n<p>\n    You already know some of these\n    booleans. They occur when comparing two numbers to each other.\n    So, an example of a program with an if-statement could be this:\n</p>\n<pre><code style=\"display: block;\">\n    val number = 3\n    if (number < 6) {\n    &nbsp    print(\"The number is smaller than six!\")\n    }\n</code></pre>\n<p>\n    You can enhance your if statement with the keywork <code>else</code>:\n</p>\n<pre><code style=\"display: block;\">\n    val number = 3\n    if (number < 6) {\n        println(\"The number is smaller than six!\")\n    } else {\n        println(\"The number is not smaller than six\")\n    }\n</code></pre>\n<p>\n    For even more specific cases, use the keyword <code>else if</code>:\n</p>\n<pre><code style=\"display: block;\">\n    val number = 3\n    if (number < 6) {\n        println(\"The number is smaller than six!\")\n    } else if (number == 42) {\n        println(\"The number is equal to 42!\")\n    } else {\n        println(\"The number is not smaller than six and not equal to 42!\")\n    }\n</code></pre>\n<p>\n    You\n</p>\n</html>",
           "description_format" : "HTML",
           "task_type" : "theory"
         }
@@ -171,13 +371,7 @@
       "name" : "build.gradle",
       "placeholders" : [ ],
       "is_visible" : true,
-      "text" : "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"
-    },
-    {
-      "name" : "settings.gradle",
-      "placeholders" : [ ],
-      "is_visible" : true,
-      "text" : "5xqdKn6NszS9tmNKflAhZPKQvsiKdtkFF7rygCkmbI/iuZ4XNsYjSNgJ4dAz8B6JF90GGtI5YIi+apNf2Vb0gn/2JA94EByI6K11QC1LuKXT/ik+D8qI24b0rYqiEd42zvsr1HvqNAc8XpUG5NwtOeyCIexYCr4rEuHcox3Q2XS5FVQgu5MUZ8OR+yNLLzqPZTbJN/IqdGVCQoTiWtMCjEF7MrMod0iDBSQBP3QC2wF0tMOWggh3ryKnkyZvk1NLI/Cnsc7/2JcLg8LoQUV32MFtyrf5t7Fp9AlRhDSBDhNwZdp2wLG/orO0yFnIWbyGk+UEpZkFxjGSqwmEVwBVzSx/aKIwTzoeBk05GuIT0BVlLPkLs7FpldtSgbzlINhr4gT+QOuAO/ZZMd7Dokc4vo8XpvGel9ei/bpCEB41m504CyAlHZ4eELgUwu+943nvxIkbyDdset8FsSD44azozwT4OlAd2jburLbZvIo2ICzR1iMObwVzvnEWO8Y2VZVZVo/pI59cJnh6MTKn7eFxNwR5zNo45vP28y3nQGTwYqao3vEROQkL++j3pWdoNY2FGgO84E9T4zcTCOAo+p+Mw++IZImoZzj+A8m+eY5HNlhZm3nIfejmnMbYAOSPJ2xRINA5FcLzempu/m/sfFDaMOexGIrgjLGbuT9DYtQK89ZAY/u7EYLIFMyo18Bhs+bDe2lqClWbCzoogxqmG8ZU/WMa+vHrY8DibqT8AOWJXpzvm9RmkNTTQXMhLdT7pXXBsWmxB76UDQ9t6CvaIXHo3YnSdVjvaCSeQzxgj/gY+gvrs5dNAdl63OuSvQEDhAzCDiI8HQDST3B+8AZ13Hr/Q3lqXfqDKTpCzy6XcQJeJpwLYDXLPiS3mkezhukeLynvv5xRLnUldSaa6moqpeOMudb/Hs0epbOzEb2WZbUtCQs="
+      "text" : "QPBhzFWPTdFGVSD7ERp/L7+ueyAJcs8hV9EVLlljzMCQAfohvlro4+uKrzPZWuLzoAr/TAFPjspaY624juYDbjKgjYqbJBT273XOXJ4fcRfoL9MJT4KBKWmBM7rnqHEiNu3apYAkKMlpDraEK/j6aj0kb/B4Goqu7y2Xzc+VRQsLeQC6NwbDBOr5IsoIlJElt42HinvCR+FgyIhvUM4BgFlPTIDQEqcY/H6zc4oTq8uusQYEuxVKaHho1GBKIU9eQB9Vq1ZJE9AKOHLLeMTwsIoRg+qQwVNzaOwHp5Qis2Oc6O5H2na5huLB6Fv3Rf55b/f77Yu7GFElUdzlNJFyG4DijtWtoR4yKMC2xZQxGENspdabcbQLPuDfHAJ3jQhUt7fO8XEAHNui3tctmCVl3HFhWplONPbYWVeYKDOxckvBTzxu0dl398EWe2Di0G+cLP7NB2GrzZEbYz/C6zz0RxuWaMoR2fgFL2rAYCg7QxxG0kORCfnm1OmgRBDb7/+wQzcOrg9ou5pfImpu7EYSBp9SilwtHBGdE3MEB6Kpwpl4HfVjcQx7/I/DrOqh8yZStYXGmmFCC9kswC6UPXSLIXrHAJZxokb5kjgk4KVATCkwvay9Av+RUIxzfDyP6YudjIxVgXzFZziWHzH/DAzWTinVLSod+0J2clGmAAp6+lwscPHNYSA9J2oaXuK95YGeh5q7btdjzGtukicqnIztgve0csPS9r0SZlNKqGGvfEqbkU2EGTMEoeNjo9tkvZA5wl+5I6DGMaUVYLJhH6BkzWcwmR7/kPayCFD0CGgWwBG7CF2BtjfA45yferLt3ccOrMB/8cz5xpKtMbfufT9ZHGvovPC0IUQYImJkxm0fBgD44PR3K6jtmBb7Qj2UWyclwVH7VrwkLVd9mFjl1wWUe67UAiACa2sFQFgWZOm9a+RgzvzRfQ8vNzAgEGPv4S5c3aaJOKHLOjt/TqNrxrZRribbmrvXdlwbo6MA5clNrU0mivtqJBJUU7wjho8jVleZ1nPzEbz2KR7CuplsXIApErQjEiioumr4t82g2NcwHkyYOOHYi+xxlFytmwggslmAPyCMYwpbl79TG6X5Ey39rvGNsrTxEL9liLFeWN1RYRE90ukDIAYAym/8vJrCgAwu3tEjufb4DSqo9BgWmRSw9AV+9kgMQGq/zeJ13aBLVmFQrhfqtWBrBllnDQzvc47ioMyL+OWd+lTtlKhT3xLG5QmhVq1WtKSi+SX+TpVRRlIDjK1vYa4qAmXuls8i+DyVfFjFeL/dMJCUoSGngEfKKIrN3M8z5Dsa3PKehn9hSqenPWrGtZml1ipn8HYnS6KCe3fIBXzWuzEucHMSomCFeJMHzG/+/Jwl0IdadUFsqlvn9vEUhYyeUKB3zHkqHXWhOLrExatoJ2vhc4XAIwmytsAFWUiZrXSRCAd71HquKhMnbxmLwVBEfC6wrHdNCD8ivj800azWmP9x02f75HfQlB9YuwbHfglwk9kKfuFTmjC23yOGZddloELJaC7DomfWUl3fL+K9hkb6Uh6YdXU5imRVfz5Sl6TdKgMkbtZlaiSJ2AnaBIPkrS979Vp84rqsalqJTdUWefgAwKngzFD5B5gt5UU1lyzjwc/XArZVdWnODyaq32yae/xEbKQH97UWU8GEyROZU0qTn79uME3HDPXrCQXPQMwwYJtPSCJUr/oZP5fKpLZH6jTJ6SCgvoxvtQpvfypFThnIL0l7qhxGvZC+oJcRbAsQpEbDMFs9DVWd/O0wngCQ8eeQCa+0JbkyWajrhHCoGAR6374otncEyr2XXyUA9OkP6YKOsS0hBxKZK3M5Cm3SYVwTKb44Aq1fPujq5oyK95UqCeoxpk5tozSIhKjwqlhWKBJ1I7i++8mOwXDGTUom+UMTKQlEsocBTs5gcwkCL4BjCgVCn23ahdrDvw+iogUlpxIF6piBZTu/TQ1etaBRz2ACJnu1h1ifuaRlnDtrqF5+1q7n/eYNvp2XDOwoOsu0eKIDFr0ZjhMwLQS8qCMcrW59pOd3muqfaJGwZqhQBQGRC6QxAXCVrpbnXjLZqtAQEsC8lX8jpSa1NbdcKD9snEuiQ4S2E7ZxovSz82MKOAMb0Rhc7clul8vgpxhrONReQ7ItQjDZC/OtTh84sh21lUrsR3urCYtspg9RSNpUS0srjT2WD6qdzfLO49IXLI6iB1Cio942NK6Rwv3bW/zNeG85aDDOAMhvZjzQMTMkSjmzrWXjjBfACSPtZUW4dcLuAq/Thj0ErW3KBWId/GwfkdWXBf3yzaU48G2UFtzLq2pkAEMYreUewAwtEc0xtex8Y2V6TZS10N3OYsjbZS43DHuGCmA3sS5O2pwJMPbmv27F5Bakb9aOddqBDPsfGhDgiy93EjATXR/Zh112TaVDdW/T+dv+J0GlIx6682z1yrZIPL/fPgoV5jpYdQGeEQfKrVp3wMDz6QY0VBqZmvEz8hGNuv5rayDd0M8zLKvlsihS+AKugiNIgEM18yIXzArc38UVt3adl3IpL3+bfFQWgklxqDoWc2bi+ovE+8Rq6qoxXdoMEZa6YUjXsTHfxNxCQPRlEaxwpNYeDerzRwCR1ajVk+KcS11r1/zdcQo3qbPdKHObgvSuPx0mnA6ZVLzZePf2ezPBckNjRTv2CB/bvKiDoXYAKSlAy96GwOws8dnjdyoLasT7LIWPNR1XkPTDmlLktkAXLleysbuIOM/Ge8qydv6l1DoMs9SqDv9MvWxQF2LDMhjKDInmhUaIh9bya6Cxk3fEfbs1NNhpdUaryzyU1aXz5mIuB3JwPm+KNooiJwuDSecpMpGRqDmUO8m12Ktoxd+DRp16qTA9OHVKXOcRC1kAeYXcOVt1uFl+XDgMP/bTqKz5j/budVurCTRz/IzOh8tuU8stsCgrtPGgm3h7UNyIXWXYFVVAdVT1E0Xz/wrwgGRcaecvMiuMVg5vc1HWDmJc0TI5OIQ54WgRJ3CWOd0bZeiwYmOFWO4O+T+81fGCfckL9JV49DyKQ/c7MCyLGIOhejJZk/Hx6R4rZtHOryU/FELPi+le7VJQOsnACMelXlAi3hNowkW1Lo0HA9ef2u9TBp6cUoKJKP9gJTyrU+3m5D5NSmwoqZRklF0NJE7hHS2vlpahq2AU0Fr9vXuMOA4Ps19wmu+Ja4ZCNasDLe5gM0ClFZnFIrTv5aRyT0IeY5wQbjO0lsoLdZ5zGX2xg7J6qr0vM5RPx6JBKUvc35DFGrW0ajA6o37z3k5icUdfRNd6NyyEW8R6T5eQQDes4KKFEHJCDcxOnEN38vjq9B2W37B9f9aMKFhUdyI2xAyOo59M4IVcpRmxgeOla4pL/S8OQ81UMfPUPY9ml7SckyCrjjsCTI1YPq7R5Sx14QY2DK6PjbzhakhJ/r0W7OwkNCxCCUKvHTDpcSSx9TadumSvT7MM+8fRpMTBVLfpTm3lU+hpymm3BjTw/7j6+/6OwNunHH/GZfOWUNYmzCyzMud/ZfSbVMbqrIPdZLYZHLzFbycT95u36F1+6kAW42Cd2CSwpVs="
     }
   ],
   "version" : 12,

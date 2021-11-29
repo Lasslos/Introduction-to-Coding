@@ -11,19 +11,21 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/Check a condition/Check a condition" />
-            <option value="$PROJECT_DIR$/Check a condition/Greet only specific persons" />
             <option value="$PROJECT_DIR$/Functions/Functions" />
             <option value="$PROJECT_DIR$/Hello World/How this course works" />
             <option value="$PROJECT_DIR$/Hello World/hello-world" />
-            <option value="$PROJECT_DIR$/IF-Statement and Tasks/If-Statement" />
-            <option value="$PROJECT_DIR$/Input and Output/Greet The User" />
-            <option value="$PROJECT_DIR$/Input and Output/Input" />
-            <option value="$PROJECT_DIR$/Input and Output/Output" />
-            <option value="$PROJECT_DIR$/Math with Kotlin/comparison" />
-            <option value="$PROJECT_DIR$/Math with Kotlin/input" />
-            <option value="$PROJECT_DIR$/Math with Kotlin/introduction" />
-            <option value="$PROJECT_DIR$/Math with Kotlin/math" />
+            <option value="$PROJECT_DIR$/If-Statement/And, Or, Not, Else," />
+            <option value="$PROJECT_DIR$/If-Statement/Check a condition" />
+            <option value="$PROJECT_DIR$/If-Statement/Greeting 3.0" />
+            <option value="$PROJECT_DIR$/If-Statement/Greeting 4.0" />
+            <option value="$PROJECT_DIR$/Integers/From 12 to 24 Hour Clock" />
+            <option value="$PROJECT_DIR$/Integers/comparison" />
+            <option value="$PROJECT_DIR$/Integers/introduction" />
+            <option value="$PROJECT_DIR$/Integers/math" />
+            <option value="$PROJECT_DIR$/Strings/Greet the User" />
+            <option value="$PROJECT_DIR$/Strings/Greeting 2.0" />
+            <option value="$PROJECT_DIR$/Strings/String Templates" />
+            <option value="$PROJECT_DIR$/Strings/Strings" />
             <option value="$PROJECT_DIR$/Variables/Declare Variables" />
             <option value="$PROJECT_DIR$/util" />
           </set>
