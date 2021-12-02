@@ -9,5 +9,9 @@ class Test {
 
     }
 
-    private fun testGreet(name: String) = name == greet(name)
+    private fun testGreet(name: String): Boolean {
+        var greet = greet(name)
+        println("Expected: $name, Got: $name")
+        return name == greet(name)
+    }
 }
