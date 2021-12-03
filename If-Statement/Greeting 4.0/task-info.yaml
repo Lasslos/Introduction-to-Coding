@@ -1,10 +1,8 @@
-type: edu
+type: theory
 files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 38
-    length: 266
-    placeholder_text: /* Add your code here */
-- name: test/Tests.kt
-  visible: false
+  - offset: 17
+    length: 287
+    placeholder_text: /* Put your solution here */
